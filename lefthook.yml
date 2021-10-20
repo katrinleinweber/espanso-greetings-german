@@ -1,0 +1,5 @@
+pre-commit:
+  commands:
+    append:
+      glob: '**/package.yml'
+      run : 'make tabulate'
