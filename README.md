@@ -5,7 +5,7 @@ A few greeting snippets I use in [Espanso.org](https://espanso.org/). It's the t
 ## Installation
 
 Not yet possible [directly](https://espanso.org/docs/packages/#from-a-repository),
-but as this repo is mirrored to GitHub, this works:
+but this works:
 
 ```shell
 # espanso uninstall greetings-german # In case you want to upgrade
