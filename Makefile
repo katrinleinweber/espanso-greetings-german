@@ -13,6 +13,13 @@ inject:
 			"$$(espanso path packages)/${PGK}/"
 	espanso restart
 
+# Reinstall from public master
+reset:
+	espanso uninstall ${PGK} && \
+	espanso install ${PGK} --external \
+		https://github.com/katrinleinweber/espanso-${PGK} && \
+	espanso restart
+
 # Convert YML to Markdown table & append to README
 tabulate:
 	rg --no-line-number --before-context=99 '# List of included espansions' ${FIN} > ${TMP}
