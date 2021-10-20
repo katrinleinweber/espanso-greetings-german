@@ -26,7 +26,7 @@ tabulate:
 	echo '\nTrigger | Espansion' >> ${TMP}
 	echo '------- | ---------' >> ${TMP}
 	yq eval '.matches' -o=json \
-		greetings-german/**/package.yml \
+		${PGK}/${VER}/package.yml \
 	| jq -r '.[] | [.trigger, .replace]' \
 	| jq -r '@tsv' \
 	| perl -p -e 's/\`//g' \

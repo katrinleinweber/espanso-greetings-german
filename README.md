@@ -30,7 +30,8 @@ Appending the up-to-date list of triggers and espansions requires:
 
 ## Other useful/noteworthy Espanso packages
 
-- @katrinleinweber's [effective-markdown](https://github.com/katrinleinweber/espanso-effective-markdown) & [greetings-german](https://github.com/katrinleinweber/espanso-greetings-german)
+- [effective-markdown](https://github.com/katrinleinweber/espanso-effective-markdown)
+- [greetings-english](https://github.com/katrinleinweber/espanso-greetings-english)
 - [Shruggie](https://hub.espanso.org/packages/shruggie/)
 
 ## List of included espansions
