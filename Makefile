@@ -5,6 +5,13 @@ VER=$$(/bin/ls ${PGK} \
 TMP=RM.md
 FIN=README.md
 
+# Test locally, by copying latest yml to local package install
+inject:
+	cd ${PGK}/${VER} \
+		&& cp -f \
+			package.yml \
+			"$$(espanso path packages)/${PGK}/"
+	espanso restart
 
 # Convert YML to Markdown table & append to README
 tabulate:
