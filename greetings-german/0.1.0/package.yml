@@ -15,6 +15,9 @@ matches:
       - name: "clipboard"
         type: "clipboard"
 
+  - trigger: ",sgdh"
+    replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n"
+
   - trigger: ",gm"
     replace: "Guten Morgen,\n\n\n"
 

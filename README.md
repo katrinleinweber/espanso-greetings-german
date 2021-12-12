@@ -40,6 +40,7 @@ Trigger | Espansion
 ------- | ---------
 `,sgf` | `Sehr geehrte Frau {{clipboard}},\n\n\n`
 `,sgh` | `Sehr geehrter Herr {{clipboard}},\n\n\n`
+`,sgdh` | `Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n`
 `,gm` | `Guten Morgen,\n\n\n`
 `!mm` | `Moin, Moin!\n\n\n`
 `!dgg` | `\n\nDanke sehr, viele Grüße & alles Gute!`
