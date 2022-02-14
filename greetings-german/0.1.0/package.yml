@@ -15,6 +15,12 @@ matches:
       - name: "clipboard"
         type: "clipboard"
 
+  - trigger: ",sgt"
+    replace: "Sehr geehrtes {{clipboard}}-Team,\n\n\n"
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+
   - trigger: ",sgdh"
     replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n"
 
