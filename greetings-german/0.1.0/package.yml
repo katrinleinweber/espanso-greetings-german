@@ -36,5 +36,8 @@ matches:
   - trigger: "!gg"
     replace: "\n\nViele Grüße & alles Gute!"
 
+  - trigger: ",vg"
+    replace: "\n\nViele Grüße,\n"
+
   - trigger: "!ds"
     replace: "\n\nDanke sehr!"
