@@ -46,5 +46,6 @@ Trigger | Espansion
 `!mm` | `Moin, Moin!\n\n\n`
 `!dgg` | `\n\nDanke sehr, viele Grüße & alles Gute!`
 `!gg` | `\n\nViele Grüße & alles Gute!`
+`,mfg` | `\n\nMit freundlichen Grüßen,\n`
 `,vg` | `\n\nViele Grüße,\n`
 `!ds` | `\n\nDanke sehr!`
