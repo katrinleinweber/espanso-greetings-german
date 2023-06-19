@@ -4,46 +4,46 @@ parent: default
 matches:
 
   - trigger: ",sgdh"
-    replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n"
+    replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n"
 
   - trigger: ",sgf"
-    replace: "Sehr geehrte Frau {{clipboard}},\n\n\n"
+    replace: "Sehr geehrte Frau {{clipboard}},\n\n"
     vars:
       - name: "clipboard"
         type: "clipboard"
 
   - trigger: ",sgh"
-    replace: "Sehr geehrter Herr {{clipboard}},\n\n\n"
+    replace: "Sehr geehrter Herr {{clipboard}},\n\n"
     vars:
       - name: "clipboard"
         type: "clipboard"
 
   - trigger: ",sgt"
-    replace: "Sehr geehrtes {{clipboard}}-Team,\n\n\n"
+    replace: "Sehr geehrtes {{clipboard}}-Team,\n\n"
     vars:
       - name: "clipboard"
         type: "clipboard"
 
   - trigger: ",sgdh"
-    replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n"
+    replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n"
 
   - trigger: ",gm"
-    replace: "Guten Morgen,\n\n\n"
+    replace: "Guten Morgen,\n\n"
 
   - trigger: "!mm"
-    replace: "Moin, Moin!\n\n\n"
+    replace: "Moin, Moin!\n\n"
 
   - trigger: "!dgg"
-    replace: "\n\nDanke sehr, viele Grüße & alles Gute!"
+    replace: "\nDanke sehr, viele Grüße & alles Gute!"
 
   - trigger: "!gg"
-    replace: "\n\nViele Grüße & alles Gute!"
+    replace: "\nViele Grüße & alles Gute!"
 
   - trigger: ",mfg"
-    replace: "\n\nMit freundlichen Grüßen,\n"
+    replace: "\nMit freundlichen Grüßen,\n"
 
   - trigger: ",vg"
-    replace: "\n\nViele Grüße,\n"
+    replace: "\nViele Grüße,\n"
 
   - trigger: "!ds"
-    replace: "\n\nDanke sehr!"
+    replace: "\nDanke sehr!"

@@ -38,15 +38,15 @@ Appending the up-to-date list of triggers and espansions requires:
 
 Trigger | Espansion
 ------- | ---------
-`,sgdh` | `Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n`
-`,sgf` | `Sehr geehrte Frau {{clipboard}},\n\n\n`
-`,sgh` | `Sehr geehrter Herr {{clipboard}},\n\n\n`
-`,sgt` | `Sehr geehrtes {{clipboard}}-Team,\n\n\n`
-`,sgdh` | `Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n`
-`,gm` | `Guten Morgen,\n\n\n`
-`!mm` | `Moin, Moin!\n\n\n`
-`!dgg` | `\n\nDanke sehr, viele Grüße & alles Gute!`
-`!gg` | `\n\nViele Grüße & alles Gute!`
-`,mfg` | `\n\nMit freundlichen Grüßen,\n`
-`,vg` | `\n\nViele Grüße,\n`
-`!ds` | `\n\nDanke sehr!`
+`,sgdh` | `Sehr geehrte Dame, Sehr geehrter Herr,\n\n`
+`,sgf` | `Sehr geehrte Frau {{clipboard}},\n\n`
+`,sgh` | `Sehr geehrter Herr {{clipboard}},\n\n`
+`,sgt` | `Sehr geehrtes {{clipboard}}-Team,\n\n`
+`,sgdh` | `Sehr geehrte Dame, Sehr geehrter Herr,\n\n`
+`,gm` | `Guten Morgen,\n\n`
+`!mm` | `Moin, Moin!\n\n`
+`!dgg` | `\nDanke sehr, viele Grüße & alles Gute!`
+`!gg` | `\nViele Grüße & alles Gute!`
+`,mfg` | `\nMit freundlichen Grüßen,\n`
+`,vg` | `\nViele Grüße,\n`
+`!ds` | `\nDanke sehr!`
