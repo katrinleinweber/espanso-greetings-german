@@ -38,6 +38,7 @@ Appending the up-to-date list of triggers and espansions requires:
 
 Trigger | Espansion
 ------- | ---------
+`,sgdh` | `Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n`
 `,sgf` | `Sehr geehrte Frau {{clipboard}},\n\n\n`
 `,sgh` | `Sehr geehrter Herr {{clipboard}},\n\n\n`
 `,sgt` | `Sehr geehrtes {{clipboard}}-Team,\n\n\n`

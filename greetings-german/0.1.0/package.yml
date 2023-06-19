@@ -3,6 +3,9 @@ parent: default
 
 matches:
 
+  - trigger: ",sgdh"
+    replace: "Sehr geehrte Dame, Sehr geehrter Herr,\n\n\n"
+
   - trigger: ",sgf"
     replace: "Sehr geehrte Frau {{clipboard}},\n\n\n"
     vars:
